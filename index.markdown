@@ -5,12 +5,12 @@
 layout: default
 ---
 
+### Content coming soon
 {% for post in site.posts %}
- 
 <ul>
     <li>
         <p class="blogLink">
-            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            <!--<a href="{{ post.url | relative_url }}">{{ post.title }}</a>-->
         </p>
     </li>
 </ul>
